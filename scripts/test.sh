@@ -1,0 +1,1 @@
+mocha --timeout 60000 --exit -r ts-node/register tests/**/*.test.ts
