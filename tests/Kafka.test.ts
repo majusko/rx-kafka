@@ -7,7 +7,7 @@ const debug = debugInit("tests:consumer");
 
 describe("Kafka test", () => {
 
-    it("sending and consuming messages from kafka and also getting watermark offsets and metadata", (done) => {
+    it.skip("sending and consuming messages from kafka and also getting watermark offsets and metadata", (done) => {
         // this.timeout(10000);
         const consumer = new KafkaMessageConsumer({"metadata.broker.list": "localhost:9092", "group.id": "kafka"}, {});
         const producer = new KafkaProducer({"metadata.broker.list": "localhost:9092"}, {});
