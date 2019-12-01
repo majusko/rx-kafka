@@ -7,8 +7,8 @@ cache:
 deploy:
   provider: npm
   email: mariokapustaa@gmail.com
+  edge: true
   api_key:
     secure: IX+7Bj2rHESuf9sQYbVgsz5Dz032RhnWEvuyqjdHa6LfLZ58R9DfREUQ9pD7ZKVPpLraeVNJhzeXO5zGCetsKk75Z/XwjiEYShQ4ZCFIYbTj9P15hGQrJUw65ZGAuLlmaqVKo5XAk+qmWm8hYn3pn5nFxsadBZpAUhdyHGcp4oDqTOPND719pgezz+6OJpDXfSh74PbWBlWQMOXJrgFRhU0S6IZSd0TSEIL6kdvncrPPH8xElY5tMA1Y9gnOT6PWhurmvHmfmsoo+i5p+ArXyuw0X1Tf2roE2kYM/DIHN9ZNJelRz6Sd4tw0Bpz4LVlJUGsw7WAQV4e5sGIjpv7Zq1WP8txkJ+ChAIT775YpDbF35A0rWT4Pme+Bn7CVJT8lm2iIBvGly54QSu4J3X5bK7N4ijKLP5JoOAaKcWF9P+9ETqZ7BKsGwpe/C8Of213TEuYIAf/uyG/siWeXr3hL7mmxhKp/r0w+pecDTTzf4ybY8NcT6hHEIxvvKniNUtVtxhwro4Bt2gEZ0x3rDdycgxp8RPDmIjku/8Kb21Ws/+l7KLCmRsmsr7t/WZor9QNEKsr3y4npeLiHP1fK87UltJ44ydZI55fkWYKS1RHJzMCY/Nr0UqWKj5zvSG4m7dKICKRownIAOu7X7n2ognktBD6CAK4vv11/nwS6KsJ1B7o=
   on:
-    tags: true
     repo: majusko/rx-kafka
