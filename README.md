@@ -221,11 +221,11 @@ export interface StatsConsumerConfig extends ConsumerConfig {
 
 ```
 
-### Run locally
+## Run locally
 
 Require git, docker
 
-#### 1. Clone dockerized kafka
+### 1. Clone dockerized kafka
 
 ```bash
 git clone https://github.com/wurstmeister/kafka-docker.git
