@@ -116,7 +116,7 @@ export class KafkaProducer {
     }
 
     private close(error?: KafkaReasonedError) {
-        // debug(error.reason.toString());
+        debug("Kafka producer is closing %O", error);
         if (this.producer != null) {
             this.isConnected().pipe(filter(($) => $)).subscribe((next) => this.producer.disconnect());
             this.producer.removeAllListeners();
