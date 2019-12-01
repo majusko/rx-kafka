@@ -1,36 +1,19 @@
 # WIP: RxKafka - Reactive wrapper for well known C++ kafka library [rdkafka](https://github.com/edenhill/librdkafka)
 
-[![Release](https://jitpack.io/v/majusko/pulsar-java-spring-boot-starter.svg)](https://jitpack.io/#majusko/pulsar-java-spring-boot-starter)
-[![Build Status](https://travis-ci.com/majusko/pulsar-java-spring-boot-starter.svg?branch=master)](https://travis-ci.com/majusko/pulsar-java-spring-boot-starter)
-[![Test Coverage](https://codecov.io/gh/majusko/pulsar-java-spring-boot-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/majusko/pulsar-java-spring-boot-starter/branch/master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/majusko/rx-kafka.svg?branch=master)](https://travis-ci.com/majusko/rx-kafka)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/majusko/rx-kafka/blob/master/LICENSE.md)
 
 - Extending great library [node rdkafka](https://github.com/LogNet/grpc-spring-boot-starter) with reactive RxJs extension. Easy implementation using a simple Subscriptions to well known Observables and subscriptions from [ReactiveX](http://reactivex.io/).
 - Added typescript for cleaner manipulation with API and configurations
 
 ## Quick Start
 
-Simple start consist only from 3 simple steps.
-
-(If you never used [gRPC library](https://github.com/LogNet/grpc-spring-boot-starter) before, have a look on this [basic setup](https://github.com/LogNet/grpc-spring-boot-starter#4-show-case) first.)
+Simple start consist only from few steps.
 
 #### 1. Add Maven dependency
 
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
+```json
 
-```xml
-<dependency>
-  <groupId>io.github.majusko</groupId>
-  <artifactId>pulsar-java-spring-boot-starter</artifactId>
-  <version>${version}</version>
-</dependency>
 ```
 
 #### 2. Configure Producer
@@ -42,6 +25,10 @@ TODO
 TODO
 
 ## Documentation
+
+TODO
+
+## Tests
 
 TODO
 
