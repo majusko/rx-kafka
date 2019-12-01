@@ -106,7 +106,7 @@ export class KafkaProducer {
             this.producer.produce(
                 message.topic,
                 message.partition,
-                new Buffer(message.message),
+                Buffer.from(message.message),
                 message.key,
                 message.timestamp,
             );
@@ -116,7 +116,7 @@ export class KafkaProducer {
     }
 
     private close(error?: KafkaReasonedError) {
-        debug(error.reason.toString());
+        // debug(error.reason.toString());
         if (this.producer != null) {
             this.isConnected().pipe(filter(($) => $)).subscribe((next) => this.producer.disconnect());
             this.producer.removeAllListeners();
