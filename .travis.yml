@@ -6,5 +6,9 @@ cache:
   - node_modules
 deploy:
   provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_API_KEY
+  email: mariokapustaa@gmail.com
+  api_key:
+    secure: AB1k8oMH3YUG8znk0BgNAI/r3skiyU32MyJ5gI1bb4uE+atpbHJ/MVYCPcj+CrWkT6yJqHRdnOaNJpVK/u5WU8wqBMnZUmyEvuVrAt+EGiwasE2skbNlGWex16qZ4MR4dmjVsNfOaJEOrRTnd3/HaSPs/OTgDziDPgS053d3EEOWp8TFHfBqbp8mnQD4dIK0ERfa9iiCLubHNnLqG0c9egSgtzrylr6qATvU47jGvNToD9zFTZCv8fi+mAq4oCTeD9s7jTXi//uk3xhmqegfFnHCABtOeUrWtHplaIS2ApZw6OZbpFIr1S6LPKDyBsFSRx+8/mFpTSZgv6nzRYBdd0NZec+sFBLQiNfKTupmjI/DByjeCfk6dSXLWv/5A5oSBimACH24U/FF2PXyDCYnx8w+tTjzUJChPRnt66/2B9OfIb5nRmjj1jSHk7jgvv6VjxL8Pz1h+Jm6DmkeamqUcpVYghv/P+FtpixbMM2e4RR19dxhmMd1hnE0pEp7rOB9XFhWHnEPzP7wlbNrHhPOE55KCWlIArwRii3xGCYvjEX5WcviGve1pubzNBkcckfyOomKL6hyxviH3hqpn++9cmEiKLV+PmcNfsCERnBrTkFRZTkNJ66HfI5tpGwQlt1hnOCCq7m3OWTrE3ootly5qf81yxQTiLv9ckJt93YVDb0=
+  on:
+    tags: true
+    repo: majusko/rx-kafka
