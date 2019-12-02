@@ -1,6 +1,6 @@
 {
   "name": "rxkafka",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Reactive wrapper for rdkafka library.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
