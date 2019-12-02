@@ -231,9 +231,9 @@ Require git, docker
 git clone https://github.com/wurstmeister/kafka-docker.git
 ```
 
-### 2. Configure file `docker-compose-single-broker.yml`
+### 2. Configure file
 
-Override two settings
+Override two settings in `docker-compose-single-broker.yml`
 
 ```bash
 KAFKA_ADVERTISED_HOST_NAME: 192.168.99.100
@@ -246,7 +246,9 @@ KAFKA_CREATE_TOPICS: "my-topic:1:1"
 docker-compose -f docker-compose-single-broker.yml up -d
 ```
 
-### 4. Edit `KafkaIntegrationTests.test.ts`
+### 4. Edit integration test file
+
+`KafkaIntegrationTests.test.ts`
 
 Remove `skip` phase from tests (Skipped because of travis CI).
 
