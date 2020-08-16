@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/rxkafka.svg)](https://www.npmjs.com/package/rxkafka)
 [![Build Status](https://travis-ci.com/majusko/rx-kafka.svg?branch=master)](https://travis-ci.com/majusko/rx-kafka)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/majusko/rx-kafka/blob/master/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/majusko/rx-kafka/blob/master/LICENSE.md) [![Join the chat at https://gitter.im/rx-kafka/community](https://badges.gitter.im/rx-kafka/community.svg)](https://gitter.im/rx-kafka/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 - Extending great library [node rdkafka](https://github.com/LogNet/grpc-spring-boot-starter) with reactive RxJs extension. Easy implementation using a simple Subscriptions to well known Observables and subscriptions from [ReactiveX](http://reactivex.io/).
 - Added [Typescript](https://www.typescriptlang.org/) for cleaner manipulation with API and configurations
