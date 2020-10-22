@@ -35,7 +35,7 @@
   "homepage": "https://github.com/majusko/rx-kafka",
   "dependencies": {
     "debug": "^4.1.1",
-    "node-rdkafka": "2.7.4",
+    "node-rdkafka": "2.9.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3"
   },
